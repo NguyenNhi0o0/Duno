@@ -1,0 +1,29 @@
+# 🔹 Dossiers de build et binaires
+bin/
+obj/
+out/
+
+# 🔹 Dépendances et caches
+*.log
+*.lock.json
+project.lock.json
+
+# 🔹 Configuration locale utilisateur (Visual Studio, Rider...)
+.vs/
+.idea/
+.vscode/
+*.suo
+*.ncb
+*.sdf
+*.sln
+*.sln.docstates
+
+# 🔹 Fichiers sensibles (ajoute un .env pour les configs locales)
+.env
+secrets.json
+
+# 🔹 Extensions de fichiers inutiles pour le repo
+*.exe
+*.dll
+*.pdb
+*.app/
